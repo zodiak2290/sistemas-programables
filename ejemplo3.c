@@ -2,9 +2,9 @@
 
 int main()
 {
-   int  x, linea=1,i,j;
-    printf ("Deme numero ");
-    scanf("%d", &x);
+int  x, linea=1,i,j;
+printf ("Deme numero ");
+scanf("%d", &x);
 
     while (linea <= x)
     {
@@ -19,8 +19,8 @@ int main()
                 printf("*");
                 
             }
-    linea++;
-    printf("\n");
+     linea++;
+     printf("\n");
     }
-    return 0;
+return 0;
 }
